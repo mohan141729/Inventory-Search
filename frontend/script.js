@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Use Render URL in production, or localhost during development
     const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    const API_URL = isLocal ? 'http://localhost:3000/search' : 'https://YOUR_RENDER_BACKEND_URL.onrender.com/search';
+    const API_URL = isLocal ? 'http://localhost:3000/search' : 'https://inventory-search-6lwo.onrender.com/search';
 
     searchForm.addEventListener('submit', async (e) => {
         e.preventDefault();
