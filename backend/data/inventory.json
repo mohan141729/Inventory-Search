@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "productName": "Office Chair",
+    "category": "Furniture",
+    "price": 120,
+    "supplier": "ABC Traders"
+  },
+  {
+    "id": 2,
+    "productName": "Standing Desk",
+    "category": "Furniture",
+    "price": 350,
+    "supplier": "Ergonomics Inc"
+  },
+  {
+    "id": 3,
+    "productName": "Monitor Stand",
+    "category": "Furniture",
+    "price": 45,
+    "supplier": "Ergonomics Inc"
+  },
+  {
+    "id": 4,
+    "productName": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 25,
+    "supplier": "Tech Gadgets"
+  },
+  {
+    "id": 5,
+    "productName": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 80,
+    "supplier": "Tech Gadgets"
+  },
+  {
+    "id": 6,
+    "productName": "27-inch Monitor",
+    "category": "Electronics",
+    "price": 250,
+    "supplier": "ScreenX"
+  },
+  {
+    "id": 7,
+    "productName": "USB-C Docking Station",
+    "category": "Electronics",
+    "price": 110,
+    "supplier": "Tech Gadgets"
+  },
+  {
+    "id": 8,
+    "productName": "Highlighters 5-pack",
+    "category": "Stationery",
+    "price": 10,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 9,
+    "productName": "A4 Paper Ream",
+    "category": "Stationery",
+    "price": 5,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 10,
+    "productName": "Gel Pens 10-pack",
+    "category": "Stationery",
+    "price": 15,
+    "supplier": "PenMakers"
+  },
+  {
+    "id": 11,
+    "productName": "Desk Lamp",
+    "category": "Furniture",
+    "price": 35,
+    "supplier": "BrightLights"
+  },
+  {
+    "id": 12,
+    "productName": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 200,
+    "supplier": "Ergonomics Inc"
+  },
+  {
+    "id": 13,
+    "productName": "Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 150,
+    "supplier": "AudioPro"
+  },
+  {
+    "id": 14,
+    "productName": "Sticky Notes 10-pad",
+    "category": "Stationery",
+    "price": 8,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 15,
+    "productName": "Whiteboard Markers",
+    "category": "Stationery",
+    "price": 12,
+    "supplier": "Office Supplies Co"
+  }
+]

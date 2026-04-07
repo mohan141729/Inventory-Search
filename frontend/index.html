@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Search | Zeerostock</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Inventory Search</h1>
+      <p>Find surplus products across multiple suppliers quickly.</p>
+    </header>
+
+    <main>
+      <section class="search-panel">
+        <form id="search-form">
+          <div class="form-group">
+            <label for="q">Product Name</label>
+            <input type="text" id="q" name="q" placeholder="Search products (e.g. chair)...">
+          </div>
+          
+          <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="">All Categories</option>
+              <option value="Furniture">Furniture</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Stationery">Stationery</option>
+            </select>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group price-input">
+              <label for="minPrice">Min Price ($)</label>
+              <input type="number" id="minPrice" name="minPrice" min="0" placeholder="0">
+            </div>
+            <div class="form-group price-input">
+              <label for="maxPrice">Max Price ($)</label>
+              <input type="number" id="maxPrice" name="maxPrice" min="0" placeholder="Max">
+            </div>
+          </div>
+          
+          <button type="submit" class="btn-search">Search Inventory</button>
+        </form>
+        <div id="error-message" class="error hidden"></div>
+      </section>
+
+      <section class="results-panel">
+        <div class="results-header">
+          <h2>Results</h2>
+          <span id="result-count" class="badge">0 items found</span>
+        </div>
+        
+        <div class="table-responsive">
+          <table id="results-table" class="hidden">
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Supplier</th>
+              </tr>
+            </thead>
+            <tbody id="results-body">
+              <!-- Result rows go here -->
+            </tbody>
+          </table>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+          <!-- Empty state message goes here -->
+          <p>Please enter a search query or click "Search Inventory" to view all items.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
