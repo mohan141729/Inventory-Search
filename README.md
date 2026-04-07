@@ -2,6 +2,14 @@
 
 This is a full-stack inventory search application that allows buyers to search surplus inventory across multiple suppliers. It includes a Node.js + Express backend and a clean, responsive HTML/CSS/JS vanilla frontend.
 
+## Screenshots
+
+![Search Interface - Empty Results](assets/search-empty.png)
+*Initial view showing the search interface with no results.*
+
+![Search Interface - With Results](assets/search-results.png)
+*View showing search results for a product.*
+
 ## Setup Instructions
 
 ### 1. Backend Setup
